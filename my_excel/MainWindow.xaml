@@ -4,9 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:my_excel"
+        xmlns:userControls="clr-namespace:my_excel.View.UserControls"
         mc:Ignorable="d"
-        Title="my_excel" Height="450" Width="800">
+        Title="my_excel" Height="1080" Width="1920">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
 
+        <!-- Top Menu Bar -->
+        <userControls:TopMenuBar/>
     </Grid>
 </Window>
