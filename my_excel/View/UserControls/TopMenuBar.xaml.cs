@@ -13,9 +13,6 @@ using System.Windows.Shapes;
 
 namespace my_excel.View.UserControls
 {
-    /// <summary>
-    /// Logique d'interaction pour TopMenuBar.xaml
-    /// </summary>
     public partial class TopMenuBar : UserControl
     {
         public TopMenuBar()
